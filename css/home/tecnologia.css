@@ -17,22 +17,21 @@
 }
 
 .tecnologia-conteudo {
-padding-top: 160px;
-padding-bottom: 160px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .tecnologia-conteudo > span {
   display: block;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .tecnologia-conteudo h2 {
-  display: block;
-margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .tecnologia-conteudo > p {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .tecnologia a {
@@ -50,35 +49,31 @@ margin-bottom: 32px;
 }
 
 .tecnologia-vantagens img {
-width: 24px;
-margin-bottom: 8px;
+  width: 24px;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 800px) {
   .tecnologia-bg {
     box-shadow: initial;
   }
-
   .tecnologia {
     grid-template-columns: 1fr;
   }
-
-  .tecnologia a {
-    margin-bottom: 60px; 
-  }
-
-  .tecnologia-imagem {
-    display: none;
-  }
-
   .tecnologia-conteudo {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 600px) {
-.tecnologia-vantagens {
-  flex-direction: column;
-}
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
 }
