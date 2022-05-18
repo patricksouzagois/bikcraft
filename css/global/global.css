@@ -8,25 +8,26 @@ h1,
 h2,
 h3,
 h4,
-u,
+ul,
 p,
-blockquote {
-margin: 0px;
+blockquote,
+dd {
+  margin: 0px;
 }
 
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
-color: inherit;
+  color: inherit;
 }
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
